@@ -1,0 +1,30 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34309.116
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{0E3172CC-5DC2-4173-B7AE-8ED1C1FB72DF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "dotnet6-api-dapper-sqlServer-unitTest-sqlite", "src\dotnet6-api-dapper-sqlServer-unitTest-sqlite\dotnet6-api-dapper-sqlServer-unitTest-sqlite.csproj", "{C6B3D9D3-90C4-40D7-A6A3-79AA2E3E1DC4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C6B3D9D3-90C4-40D7-A6A3-79AA2E3E1DC4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C6B3D9D3-90C4-40D7-A6A3-79AA2E3E1DC4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C6B3D9D3-90C4-40D7-A6A3-79AA2E3E1DC4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C6B3D9D3-90C4-40D7-A6A3-79AA2E3E1DC4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{C6B3D9D3-90C4-40D7-A6A3-79AA2E3E1DC4} = {0E3172CC-5DC2-4173-B7AE-8ED1C1FB72DF}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {DBC80DAA-6968-4665-BFA4-23449795249E}
+	EndGlobalSection
+EndGlobal
