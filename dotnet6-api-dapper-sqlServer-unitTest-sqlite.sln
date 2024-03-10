@@ -7,6 +7,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{0E3172CC-5DC
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "dotnet6-api-dapper-sqlServer-unitTest-sqlite", "src\dotnet6-api-dapper-sqlServer-unitTest-sqlite\dotnet6-api-dapper-sqlServer-unitTest-sqlite.csproj", "{C6B3D9D3-90C4-40D7-A6A3-79AA2E3E1DC4}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{7EF8F4B6-C4E6-407A-A883-7A836AE39D1C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "dotnet6-api-dapper-sqlServer-unitTest-sqlite-tests", "test\dotnet6-api-dapper-sqlServer-unitTest-sqlite-tests\dotnet6-api-dapper-sqlServer-unitTest-sqlite-tests.csproj", "{978C35C7-6016-4BC1-8D92-F4FE1D7BAD87}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -17,12 +21,17 @@ Global
 		{C6B3D9D3-90C4-40D7-A6A3-79AA2E3E1DC4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C6B3D9D3-90C4-40D7-A6A3-79AA2E3E1DC4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C6B3D9D3-90C4-40D7-A6A3-79AA2E3E1DC4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{978C35C7-6016-4BC1-8D92-F4FE1D7BAD87}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{978C35C7-6016-4BC1-8D92-F4FE1D7BAD87}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{978C35C7-6016-4BC1-8D92-F4FE1D7BAD87}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{978C35C7-6016-4BC1-8D92-F4FE1D7BAD87}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{C6B3D9D3-90C4-40D7-A6A3-79AA2E3E1DC4} = {0E3172CC-5DC2-4173-B7AE-8ED1C1FB72DF}
+		{978C35C7-6016-4BC1-8D92-F4FE1D7BAD87} = {7EF8F4B6-C4E6-407A-A883-7A836AE39D1C}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {DBC80DAA-6968-4665-BFA4-23449795249E}
